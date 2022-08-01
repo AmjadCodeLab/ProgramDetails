@@ -12,6 +12,7 @@ let arr1 = [1,2,3,4]
 let arr2 = [...arr1,5,6,7]
 console.log(arr2);
 
-// Ex 3 = Find Max Number from Array
+// Ex 3 = Find Max and Min Number from Array
 let arr3 = [8,9,10,11,3,4,5,6];
 console.log(Math.max(...arr3));
+console.log(Math.min(...arr3));
