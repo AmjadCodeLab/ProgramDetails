@@ -16,3 +16,9 @@ console.log(arr2);
 let arr3 = [8,9,10,11,3,4,5,6];
 console.log(Math.max(...arr3));
 console.log(Math.min(...arr3));
+
+//Ex 4 combine two array
+let arr4 = [1,2,3,4,5];
+let arr5 = [6,7,8,9,10];
+let result = [...arr4,...arr5];
+console.log(result);
