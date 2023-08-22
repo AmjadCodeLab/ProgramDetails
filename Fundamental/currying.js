@@ -10,4 +10,4 @@ function add (a){
     }
 }
 
-add(3)(4)
+add(3)(4) // o/p - 7

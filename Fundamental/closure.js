@@ -1,6 +1,6 @@
 // When a function comes under another function 'closure' is created
 // Closure pattern remembers outer variable and also helps to access outer scope member
-// When you use closure , you are making provate member globally available
+// When you use closure , you are making private member globally available
 
 // Ex 
 function outer() {
@@ -9,4 +9,4 @@ function outer() {
     }
 }
 const cl = outer();
-cl();
+cl(); 

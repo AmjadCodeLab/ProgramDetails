@@ -7,4 +7,4 @@ function apply (message) {
 
 var person = {name: "Amjad"};
 
-apply.apply(person,[" a QA Engineeer"]);
+apply.apply(person,[" a QA Engineeer"]); // o/p - Amjad is a QA Engineeer

@@ -3,4 +3,4 @@ function call () {
 }
 
 var obj = {name :" Amjad"};
-call.call(obj);
+call.call(obj);  // o/p - Hello Amjad

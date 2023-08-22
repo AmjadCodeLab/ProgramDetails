@@ -4,8 +4,7 @@
 // Ex 1
 let a =4;
 let b = 'test';
-console.log(a*b);
+console.log(a*b);  // o/p - NaN
 
 // Ex 2
-console.log(NaN==NaN);
- 
+console.log(NaN==NaN);  // o/p - false
