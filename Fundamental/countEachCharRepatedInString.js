@@ -2,22 +2,17 @@
 // output = h=3 ,i=3 count the totalnumber of repeated char so on...
 
 var repeatedCharInString = function (str) {
-    let trimSpace = str.trim();
-    let lower = trimSpace.toLowerCase();
-    let splitStr = lower.split("");
-    let sortStr = splitStr.sort();
-    let joinStr = sortStr.join("");
-
-    let counter = 1;
-    for (let i=0;i<joinStr.length;i++){
-        if (joinStr[i] == joinStr[i+1]){
-            counter++;
-        }
-        else {
-            console.log(joinStr[i] + " " + counter);
-            counter=1
-        }
+    let count = 0;
+    let result = "";
+   let format = str.split("").sort().join("").trim();
+   let lowercase = format.toLowerCase();
+   for (let i=1;i<lowercase.length;i++){
+    count++;
+    if (lowercase[i] != lowercase[i+1]){
+        result = result + lowercase[i] + count;
+        count =0;
     }
+   }
+   console.log(result);
 }
-
 repeatedCharInString("Hi there i am good How you guys are doing");
