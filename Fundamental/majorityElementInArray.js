@@ -1,8 +1,6 @@
 //Find the majority element in array
 // input = [1,2,3,4,1,3,1,4] , output = 1 (repeated 3 times > 3&4 2 times);
 
-const { count } = require("console");
-
 // Additonal Case we can check , 
  // 1. empty array [] 
  // 2. length of array should be more than 2 e.g [1,2,...]
